@@ -1,0 +1,38 @@
+@import 'ctrl-slider';
+
+.img-slide {
+      width: 100%;
+      height:100%;
+      object-fit: cover;
+      object-position: center;
+}
+
+@keyframes fade {
+      from{opacity:0;}
+      to{opacity:1;}
+}
+.slider{
+      position:relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.card-slide{
+      max-width: 60%;
+      position:absolute;
+      text-align: center;
+      bottom: 10rem;
+}
+.fade {
+      animation: fade 1s ease-in-out infinite alternate-reverse 1s;
+}
+@keyframes fade {
+      from { opacity: 1; }
+      to { opacity: 0; }
+}

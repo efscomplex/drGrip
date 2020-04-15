@@ -1,0 +1,16 @@
+.ctrl-slider {
+      padding: 0 2rem;
+      width: 100%;
+      height:100%;
+      
+      position: absolute;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+
+      font-size: 2.2rem;
+      color:rgba(255,255,255,.8);
+  }
+.left-ctrl, .right-ctrl{
+      cursor:pointer;     
+}

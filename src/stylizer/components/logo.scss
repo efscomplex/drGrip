@@ -1,0 +1,17 @@
+.logo .logo-img{
+      width: 8rem;
+      object-fit: cover;
+      object-position: center;
+}
+.logo .description {
+      text-align: center;
+      font-size:2.75rem;
+}
+.logo-l{
+      @extend .logo;
+      font-size: 1.4em;
+}
+.logo-xl{
+      @extend .logo;
+      font-size: 2em;
+}

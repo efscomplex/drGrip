@@ -1,0 +1,12 @@
+.red { color:red; }
+.blue { color:blue; }
+.green { color:green; }
+
+.dark-0{ background-color: #000; }
+.dark-1{ background-color: #111; }
+.dark-2{ background-color: #222; }
+.dark-3{ background-color: #333; }
+.dark-4{ background-color: #444; }
+.dark {
+      background-color:#222;
+      color: #fff;      }

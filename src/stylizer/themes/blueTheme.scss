@@ -1,0 +1,55 @@
+//** A PRIMARY color is the color displayed most **/
+//** frequently across your app’s screens and components.**/
+//** Dark and light primary variants **/
+//** Your primary color can be used to make a color theme for your app, **/
+//** including dark and light primary color variants.**/
+//** “On” colors are primarily applied to text, 
+//** iconography, and strokes *//
+
+$primary: #318dbc;
+$secondary: #f57f17;
+$p-light: lighten($primary, 20%);
+$p-dark: darken($primary, 20%);
+$s-light: lighten($secondary, 20%);
+$s-dark: darken($secondary, 20%);
+$on-p:#fff;
+$on-s:#fff;
+
+.primary{
+      background-color:$primary;   
+      color: $on-p }
+.secondary{
+      background-color:$secondary;   
+      color: $on-s; }
+
+.p-light {
+      background-color:$p-light;   }
+.p-dark {
+      background-color:$p-dark;   }
+.s-light {
+      background-color:$p-light;   }
+.s-dark {
+      background-color:$p-dark;   }
+
+.on-p {
+      background-color:$primary;
+      color: $on-p;     }
+.on-s {
+      background-color:$secondary;
+      color: $on-s;     }
+
+//** text color **/
+.text-p {
+      color:$primary; }
+.text-s {
+      color:$secondary; }
+.text-p-d {
+      color:$p-dark; }
+.text-s-d {
+      color:$s-dark; }
+.text-p-l {
+      color:$p-light; }
+.text-s-l {
+      color:$s-light; }
+
+

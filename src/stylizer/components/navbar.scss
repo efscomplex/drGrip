@@ -1,0 +1,21 @@
+.navbar {
+      display:inline-flex;
+      align-items: center;
+}
+.navbar ul{
+   display:inline-flex;
+   padding:0;
+}
+.navbar a {
+      padding:0 .8em;
+      display: block;
+      text-decoration: none;
+      text-transform: capitalize;
+      
+      color: inherit;
+      /* letter-spacing: 0.5px; */
+      cursor: pointer;
+}
+ .navbar a:hover {
+      opacity:.7;
+}

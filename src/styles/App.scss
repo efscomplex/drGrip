@@ -1,0 +1,37 @@
+@import './../stylizer/themes/blueTheme.scss';
+@import './../stylizer/utils/tools.scss';
+
+.app-header{
+      .title {
+            @extend .text-p-d;  }
+}
+.app-main{
+      .section [class*="heading"]{
+            @extend .text-s-d;      }
+      .language .level {
+            @extend .text-p-d;
+      }
+}
+
+.App {
+      /* font-family: Montserrat; */
+      font-size:16px;
+      font-family: "Arialr";
+      letter-spacing: .1rem;  
+      padding:2rem 4rem 8rem;
+      color:rgba(black,.7);
+}
+.app-main {
+      .icon { filter: grayscale(90%); }
+      .left-side{
+            border-right: 2px solid gray;
+            border-right-style: dotted;
+      }
+}
+.section{
+      margin-bottom: 4rem;
+}
+.about{
+      max-width:80%;
+      @extend .container;
+}

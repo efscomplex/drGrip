@@ -1,0 +1,17 @@
+.social-bar {
+      display: flex;
+      justify-content: center;
+      .icon-wrap{
+            display:flex;
+            align-items: flex-end;
+            margin-bottom: 1rem;
+      }
+      .icon{
+            width: 3rem;
+            margin: 0 .4rem;
+            display:inline-block;
+      }
+      .icon-text{
+            margin-left: .8rem;
+      }
+}

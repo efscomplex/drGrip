@@ -1,0 +1,46 @@
+.block {
+      display:block;
+}
+.itemizer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.wrap{
+      margin: auto;
+}
+.container {
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items:center;
+}
+.jumbotron {
+      @extend .container;
+      margin:2rem;
+}
+.expand   {
+      width: 100%;      }
+.adjust {
+      @extend .expand;
+      height: 200%;     }
+hr, .hr {
+            width:80%;
+}
+.pic-xs {
+      width:4rem;      }
+.pic-s {
+      width:6rem;      }
+.pic-m, .pic {
+      width:8rem;      }
+.pic-l {
+      width:10rem;      }
+.pic-xl{
+      width:12rem;      }
+.pic-xxl {
+      width:14rem;      }
+
+@for $size from 1 through 20 {
+      .pic-#{$size} {
+            width: #{$size}rem; }
+}

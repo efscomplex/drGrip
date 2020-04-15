@@ -1,0 +1,64 @@
+.flex, .row {
+      display:flex;     }
+.wrap{ 
+      flex-wrap: wrap; }
+
+.col {
+      display:flex;     
+      flex-direction: column; }
+.flex-sb{
+      @extend .flex;
+      justify-content: space-between; }
+.flex-se{
+      @extend .flex;
+      justify-content: space-evenly; }
+.flex-sa{
+      @extend .flex;
+      justify-content: space-around; }
+.flex-c, .flex-center {
+      display: flex;
+      justify-content: center;
+      align-items:center;
+}
+.js-c{ justify-self:center;}
+.js-r{ justify-self:right;}
+.v-flex, .flex-col, .col {
+      display:flex;
+      flex-direction: column;
+}
+.jc-c{
+      justify-content: center; }
+.jc-l {
+      justify-content: left;  }
+.jc-sb {
+      justify-content: space-between; }
+.jc-se {
+      justify-content: space-evenly; }
+.jc-sa {
+      justify-content: space-around; }
+
+.ji-c{
+      justify-items: center; }
+.ji-s {
+      justify-items: start;  }
+.ji-e {
+      justify-items: end; }
+
+/** align items **/
+.ai-fs {
+      align-items:flex-start; }
+.ai-fe {
+      align-items:flex-end; }
+.ai-s {
+      align-items:start; }
+.ai-e {
+      align-items:end; }
+.ai-c {
+      align-items:center;     }
+.item{
+      @extend  .flex-c; }
+.item-sb {
+      @extend .flex-sb;
+      @extend  .ai-c;
+}
+

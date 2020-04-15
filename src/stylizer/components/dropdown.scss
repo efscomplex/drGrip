@@ -1,0 +1,20 @@
+.dropdown{
+      display: inline-block;
+      .dropdown-label {
+            cursor:pointer;
+            position:relative;
+            &:hover .dropdown-options{
+                  opacity:1;
+                  height:initial;
+                  position: absolute;
+            }
+      }
+      .dropdown-options {
+            height:0;
+            opacity: 0;
+            overflow: hidden;
+      }
+      .dropdown-item {
+
+      }
+}
